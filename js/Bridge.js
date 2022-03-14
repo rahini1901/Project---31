@@ -46,6 +46,7 @@ class Bridge {
 
   drawVertices(vertices) {
     push();
+    // translate(vertices[i].x, vertices[i].y);
 
     for (let i = 0; i < vertices.length; i++) {
       image(this.image, vertices[i].x, vertices[i].y, 80, 50);
